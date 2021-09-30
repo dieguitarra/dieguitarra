@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="Sitio web del músico Diego López (Dieguitarra), en este sitio encontrarás su música compuesta y todo acerca de sus clases de música"
+        />
+      <meta name="keywords" content="dieguitarra, diegoLopez, clasesDeMusica" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous"
+        />
+      <link rel="icon" href="./img/favicon-dieguitarra.ico" type="image/vnd.microsoft.icon" sizes="TAMAÑO-FAV">
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+        crossorigin="anonymous"
+        />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./scss/style.css" />
+      <title>Home - Dieguitarra</title>
+  </head>
+  <body>
+      <!--HEADER-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo-dieguitarra-2.png"  class="img-logo-nav img-fluid" alt="logo"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto align-items-center mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        aria-current="page"
+                        href="./views/sobre-mi.html"
+                        >Sobre mí</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="./views/obras-compuestas.html"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Obras compuestas</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="./views/clases-de-musica.html"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Clases de música</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link links" href="./views/contacto.html"
+                        >Contacto</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="https://www.youtube.com/user/Musiqueeee"
+                        target="_blank"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Canal de Youtube</a
+                        >
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Search"
+                    />
+                  <button class="btn btn-outline-warning" type="submit">
+                  Buscar
+                  </button>
+              </form>
+            </div>
+        </div>
+      </nav>
+      <!--FIN HEADER-->
+      <!--MAIN-->
+      <main>
+      <!--SECTION 1-->
+      <section>
+        <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            >
+            <div class="carousel-indicators">
+              <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                  ></button>
+              <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  ></button>
+              <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img
+                    src="./img/banner-1.png"
+                    class="d-block w-100 img-fluid"
+                    alt="imagen violin"
+                    />
+              </div>
+              <div class="carousel-item">
+                  <img
+                    src="./img/banner-2.png"
+                    class="d-block w-100 img-fluid"
+                    alt="imagen guitarra"
+                    />
+              </div>
+              <div class="carousel-item">
+                  <img
+                    src="./img/banner-3.jpg"
+                    class="d-block w-100 img-fluid"
+                    alt="imagen orquesta"
+                    />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+              >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+              >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </section>
+      <!--FIN SECTION 1-->
+      <!--SECTION 2-->
+      <section>
+        <h2 class="text-center fw-bold mt-5  py-3">
+            Cumplí tu sueño de aprender música
+        </h2>
+        <h4 class="text-center text-muted my- mb-4 ">
+            El lugar que estabas buscando para entrar en el mundo de la música
+        </h4>
+        <!-- Button trigger modal -->
+        <div class="text-center pb-5 pt-2">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Quiero saber más
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+            Ver video
+            </button>
+            <!-- Modal 1-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Clases de música</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Clases personalizadas para adultos y niños, con más de 10 años de experiencia. Teoría y solfeo, improvisación, composición y canciones. Todos los estilos. 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary"><a href="./views/clases-de-musica.html" class="text-white text-decoration-none"> Ir a las clases</a></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- Modal 2-->
+            <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Clases de guitarra</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                          <iframe src="https://www.youtube.com/embed/d5BoGROBYyc"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary"><a href="./views/clases-de-musica.html" class="text-white text-decoration-none"> Ir a las clases</a></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div>
+            <h3 class="fw-bold text-center py-3">Modalidades</h3>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+              <div class="col-6">
+                  <h4 class="text-center">             <a
+                    href="#"
+                    class="btn-floating btn-sm text-black"
+                    style="font-size: 30px"
+                    ><i class="fas fa-user-friends"></i></a>Clases preenciales </h4>
+                  <p class="text-center">Respetando los protocolos. </p>
+              </div>
+              <div class="col-6">
+                  <h4 class="text-center">             <a
+                    href="#"
+                    class="btn-floating btn-sm text-black"
+                    style="font-size: 30px"
+                    ><i class="far fa-id-card"></i></a>Clases virtuales </h4>
+                  <p class="text-center">A distancia, amplitud horaria, personalizado. </p>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!--FIN SECTION 2-->
+      <!--FOOTER-->
+      <footer class=" text-white pt-3 pb-3">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 textos-con-color">
+                    Compañía Dieguitarra
+                  </h5>
+                  <p>
+                    Dieguitarra además de ser músico multi-instrumentista también es
+                    una compañía de desarrollo web independiente.
+                  </p>
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5
+                    id="Redes"
+                    class="text-uppercase mb-4 font-weight-bold textos-con-color"
+                    >
+                    Redes
+                  </h5>
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.facebook.com/diego.lopez.33449"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-facebook"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://twitter.com/musiqueeee"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-twitter"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.instagram.com/dieguitarra/"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-instagram"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.youtube.com/user/Musiqueeee"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-youtube"></i
+                          ></a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <img
+                    src="./img/logo-dieguitarra-1.png"
+                    alt="logo"
+                    class="img-logo img-fluid"
+                    />
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold textos-con-color">
+                    Contacto
+                  </h5>
+                  <p>
+                    <i class="fas fa-home mr-3"></i> Buenos Aires, Capital Federal
+                  </p>
+                  <p><i class="fas fa-envelope mr-3"></i> dieguitarra@gmail.com</p>
+                  <p><i class="fab fa-whatsapp mr-3"></i> +54 9 11 5903-0187</p>
+              </div>
+            </div>
+            <hr class="mb-3" />
+            <div class="row">
+              <div class="col-12">
+                  <p class="my-2">
+                    Hecho en Argentina en 2021 por:<strong class="textos-con-color">
+                    Diego López</strong
+                        >
+                  </p>
+              </div>
+            </div>
+        </div>
+      </footer>
+      <!--FIN FOOTER-->
+  </body>
+  <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+      ></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+      ></script>
+</html>

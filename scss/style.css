@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*CLASES DE MÚSICA*/
+/*COLORS*/
+/*CONTACTO*/
+/*FOOTER*/
+footer {
+  background-color: black;
+}
+
+.img-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.textos-con-color {
+  color: #f9a826;
+}
+
+/*GLOBALES*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*INDEX*/
+.links {
+  -webkit-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+
+.links:hover {
+  color: red !important;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+.img-logo {
+  height: 150px;
+  width: 150px;
+}
+
+/*NAVBAR*/
+.navbar {
+  font-size: 20px;
+  background-color: black;
+}
+
+.img-logo-nav {
+  height: 72px;
+  width: 105px;
+}
+
+/*OBRAS COMPUESTAS*/
+html {
+  scroll-behavior: smooth;
+}
+
+.imagenesObras {
+  border-radius: 15px;
+  border: solid black 2px;
+}
+
+.audioApariencia {
+  background-color: rgba(0, 0, 0, 0.473);
+  padding: 2px;
+  border-radius: 30px;
+}
+
+.goToTop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: grey;
+  bottom: 25px;
+  right: 25px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+/*SOBRE MI*/
+.texto-bio {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

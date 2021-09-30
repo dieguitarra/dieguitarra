@@ -1,0 +1,14 @@
+/*INDEX*/
+.links {
+  transition: all 0.3s !important;
+}
+
+.links:hover {
+  color: red !important;
+  transform: scale(1.1) !important;
+}
+
+.img-logo {
+  height: 150px;
+  width: 150px;
+}

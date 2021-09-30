@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Sección de contacto de Dieguitarra" />
+      <meta name="keywords" content="contacto, email, suscripcion" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous"
+        />
+      <link rel="icon" href="../img/favicon-dieguitarra.ico" type="image/vnd.microsoft.icon" sizes="TAMAÑO-FAV">
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+        crossorigin="anonymous"
+        />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../scss/style.css" />
+      <title>Contacto - Dieguitarra</title>
+  </head>
+  <!--HEADER-->
+  <body>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../img/logo-dieguitarra-2.png"  class="img-logo-nav img-fluid" alt="logo"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto align-items-center mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link links" aria-current="page" href="../index.html"
+                        >Home</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        aria-current="page"
+                        href="../views/sobre-mi.html"
+                        >Sobre mí</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="../views/obras-compuestas.html"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Obras compuestas</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="../views/clases-de-musica.html"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Clases de música</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                        class="nav-link links"
+                        href="https://www.youtube.com/user/Musiqueeee"
+                        target="_blank"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Canal de Youtube</a
+                        >
+                  </li>
+              </ul>
+              <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Buscar"
+                    aria-label="Search"
+                    />
+                  <button class="btn btn-outline-warning" type="submit">Buscar</button>
+              </form>
+            </div>
+        </div>
+      </nav>
+      <!--FIN HEADER-->
+      <!--MAIN-->
+      <main>
+        <!--FORMULARIO-->
+        <div>
+            <h1 class="d-flex justify-content-center my-5">Contacto</h1>
+        </div>
+        <section class="pb-4">
+            <form class="container mt-5 border  bg-secondary text-white border-dark rounded px-4 py-5">
+              <div class="row flex-row mb-4">
+                  <div class="form-group col-sm-6 col-lg-7">
+                    <label for="nombre" class="mb-3">Nombre</label>
+                    <input
+                        class="form-control "
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                        />
+                  </div>
+                  <div class="form-group col-sm-6 col-lg-5">
+                    <label for="email" class="mb-3">Correo</label>
+                    <input
+                        class="form-control "
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        />
+                  </div>
+              </div>
+              <div class="form-group mb-5">
+                  <label for="password" class="mb-3">Password</label>
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                    />
+              </div>
+              <div class="form-check mb-5">
+                  <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label " for="flexCheckDefault">
+                  Suscribirse
+                  </label>
+              </div>
+              <div class="col-md">
+              <div class="form-floating mb-5 ">
+                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>Guitarra</option>
+                    <option value="1">Piano</option>
+                    <option value="2">Bajo</option>
+                    <option value="3">Fagot</option>
+                    <option value="4">Clases de teoría musical</option>
+                  </select>
+                  <label for="floatingSelectGrid">Clases de música</label>
+              </div>
+              <div class="d-flex justify-content-center mt-5">
+                  <button class="btn btn-primary " type="submit">Enviar</button>
+              </div>
+            </form>
+        </section>
+        <!--FIN FORMULARIO-->
+      </main>
+      <!--FOOTER-->
+      <footer class="text-white pt-3 pb-3 mt-5">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold textos-con-color">
+                    Compañía Dieguitarra
+                  </h5>
+                  <p>
+                    Dieguitarra además de ser músico multi-instrumentista también es
+                    una compañía de desarrollo web independiente.
+                  </p>
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5
+                    id="Redes"
+                    class="text-uppercase mb-4 font-weight-bold textos-con-color"
+                    >
+                    Redes
+                  </h5>
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.facebook.com/diego.lopez.33449"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-facebook"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://twitter.com/musiqueeee"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-twitter"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.instagram.com/dieguitarra/"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-instagram"></i
+                          ></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a
+                          href="https://www.youtube.com/user/Musiqueeee"
+                          target="blank_"
+                          class="btn-floating btn-sm text-white"
+                          style="font-size: 23px"
+                          ><i class="fab fa-youtube"></i
+                          ></a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <img
+                    src="../img/logo-dieguitarra-1.png"
+                    alt="logo"
+                    class="img-logo img-fluid"
+                    />
+              </div>
+              <div class="col-md-12 col-lg-3 mx-auto mt-3">
+                  <h5 class="text-uppercase mb-4 font-weight-bold textos-con-color">
+                    Contacto
+                  </h5>
+                  <p>
+                    <i class="fas fa-home mr-3"></i> Buenos Aires, Capital Federal
+                  </p>
+                  <p><i class="fas fa-envelope mr-3"></i> dieguitarra@gmail.com</p>
+                  <p><i class="fab fa-whatsapp mr-3"></i> +54 9 11 5903-0187</p>
+              </div>
+            </div>
+            <hr class="mb-3" />
+            <div class="row">
+              <div class="col-12">
+                  <p class="my-2">
+                    Hecho en Argentina en 2021 por:<strong class="textos-con-color">
+                    Diego López</strong
+                        >
+                  </p>
+              </div>
+            </div>
+        </div>
+      </footer>
+      <!--FIN FOOTER-->
+  </body>
+  <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+      ></script>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+      ></script>
+</html>
